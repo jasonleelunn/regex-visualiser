@@ -1,0 +1,30 @@
+:root {
+  font-family: Arial, system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--background-colour);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --border-radius: 0.5rem;
+  --error-colour: #ff5555;
+  --primary-colour: white;
+  --outline-colour: grey;
+  --background-colour: black;
+  --default-highlight-colour: #ffea00;
+  --match-highlight-colour: #32cd32;
+  --not-match-highlight-colour: #d2042d;
+}
+
+body,
+#app {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
